@@ -1,0 +1,87 @@
+/*RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6b4226;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #4a2f1b;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.recipiente {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.recipiente h2 {
+    color: #6b4226;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+.recipiente ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recipiente ul li {
+    margin: 5px 0;
+}
+
+
+.recipiente ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recipiente ol li {
+    margin: 10px 0;
+}
+
+.recipiente img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #4a2f1b;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border-top: 4px solid #6b4226;
+}
+
+footer p {
+    margin: 0;
+}
